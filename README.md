@@ -1,16 +1,99 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Tic Tac Toe** game built with React and Vite. Enjoy the classic X and O gameplay with a stylish Midnight Navy theme, Neon Cyan and Purple accents, and a responsive user interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎯 Interactive 3×3 Tic Tac Toe board
+- ❌ Two-player gameplay (X and O)
+- 🔄 Automatic player turn switching
+- 🏆 Winner detection
+- 🤝 Draw detection
+- ♻️ Reset Game functionality
+- 🚪 Quit Game functionality
+- 📱 Responsive user interface
+- 🎨 Modern dark theme with Neon Cyan and Purple styling
+- ⚡ Fast development and build using Vite
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – UI development
+- **JavaScript** – Game logic
+- **CSS3** – Styling and responsive design
+- **Vite** – Development server and build tool
+- **Git & GitHub** – Version control
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+tic-tac-toe/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── css/
+│   │       ├── Home.module.css
+│   │       ├── GameBoard.module.css
+│   │       ├── Square.module.css
+│   │       └── DeveloperCredit.module.css
+│   │
+│   ├── components/
+│   │   ├── Home.jsx
+│   │   ├── GameBoard.jsx
+│   │   ├── Square.jsx
+│   │   └── DeveloperCredit.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/syeddaniyalamir/tic-tac-toe.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd tic-tac-toe
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 🎮 How to Play
+
+1. Click **Start Game** to begin.
+2. Player X takes the first turn.
+3. Player O plays the next turn.
+4. Players take turns selecting empty squares.
+5. The first player to match three symbols horizontally, vertically, or diagonally wins.
+6. If all nine squares are filled without a winner, the game ends in a draw.
+7. Use **Reset Game** to play again or **Quit Game** to return to the home screen.
+
+## 👨‍💻 Developer
+
+**Developed by Syed Daniyal Amir**
+
+© 2026 Tic Tac Toe Game. All Rights Reserved.
